@@ -4,7 +4,7 @@ package bno055
 import (
 	"errors"
 	"fmt"
-	"i2c"
+	"github.com/ohlsont/go-bno055/i2c"
 	"time"
 )
 

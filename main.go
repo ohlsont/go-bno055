@@ -1,12 +1,10 @@
-// +build ignore
-
 package main
 
 import (
-	"bno055"
+	"github.com/ohlsont/go-bno055/bno055"
 	"encoding/hex"
 	"fmt"
-	"i2c"
+	"github.com/ohlsont/go-bno055/i2c"
 	"os"
 	"os/signal"
 	"syscall"
